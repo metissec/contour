@@ -14,12 +14,12 @@ Layer the contour map over the map image. With a lower alpha to the contour to m
 Output figure to PNG file (or any other format supported by matplotlib).  
 Usage:
 	Python 3 IDE
-
+```python
 >>>import contour
 >>>contour.Contour(‘File with points’)
 
 contour.Contour(filename, pix_size=2000, inch_size=10,dpi=200,zoom=14)
-
+```
 	filename: Filename containing points.
 	zoom: Zoom of openstreetmap.
 	pix_size: Size of image downloaded from open-street map. 
