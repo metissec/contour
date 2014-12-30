@@ -1,7 +1,7 @@
 Contour
 =======
 
-This contour library uses data given in geographic format, latitude (N°) and longitude (E°). A map is generated from openstreetmap[1] then plotted using matplotlib[2] and geotiler[3] libraries. Then a vector field is generated using gaussian kernel density estimation(KDE) from the scipy library [4] . The input for the KDE are the points provided to the library, which were assigned to a numpy array (np.array()). Then this vector field is applied to the matplotlib.contourf() function. Lastly the points are plotted with simple dots using the matplotlib.scatter() function. This can work on any city in the world, or any location.     
+This contour library uses data given in geographic format, latitude (N°) and longitude (E°). A map is generated from openstreetmap```[1]``` then plotted using matplotlib```[2]``` and geotiler```[3]``` libraries. Then a vector field is generated using gaussian kernel density estimation(KDE) from the scipy library```[4]``` . The input for the KDE are the points provided to the library, which were assigned to a numpy array (np.array()). Then this vector field is applied to the matplotlib.contourf() function. Lastly the points are plotted with simple dots using the matplotlib.scatter() function. This can work on any city in the world, or any location.     
 
 **Algorithm**
 
@@ -69,9 +69,10 @@ The format for the file of points has to be in the format: [latitude,longitude].
 	51.510345,-0.106602
 ```
 **Reference**
-	
+```	
 [1]: http://openstreetmap.org/ 
 [2]: http://matplotlib.org/ 
 [3]: http://wrobell.it-zone.org/geotiler/ 
 [4]: http://www.scipy.org/
 [5]: http://www.numpy.org/
+```
