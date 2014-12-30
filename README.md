@@ -24,11 +24,11 @@ Output figure to PNG file (or any other format supported by matplotlib).
 ```
 contour.Contour(filename, pix_size=2000, inch_size=10,dpi=200,zoom=14)
 ```
-**filename**: Filename containing points.
-**zoom**: Zoom of openstreetmap.
-**pix_size**: Size of image downloaded from open-street map. 
-**inch_size**: Size of matplotlib figure in inches.
-**dpi**: Number of pixels per inch of matplotlib figure.
+**filename**: Filename containing points  
+**zoom**: Zoom of openstreetmap  
+**pix_size**: Size of image downloaded from open-street map   
+**inch_size**: Size of matplotlib figure in inches  
+**dpi**: Number of pixels per inch of matplotlib figure  
 
 
 
