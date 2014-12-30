@@ -68,3 +68,10 @@ The format for the file of points has to be in the format: [latitude,longitude].
 	51.49763,-0.106602
 	51.510345,-0.106602
 ```
+**Reference**
+	
+[1]: http://openstreetmap.org/ 
+[2]: http://matplotlib.org/ 
+[3]: http://wrobell.it-zone.org/geotiler/ 
+[4]: http://www.scipy.org/
+[5]: http://www.numpy.org/
