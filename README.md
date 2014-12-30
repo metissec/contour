@@ -40,7 +40,8 @@ The format for the file of points has to be in the format: [latitude,longitude].
 	
 	Longitude: Has to be in terms of E°. (Incorrect: 1° W Correct: -1° E)
 
-	Sample data Random points in London:
+```
+Sample data Random points in London:
 					
 [Latitude° N, Longitude° E]
 
@@ -66,3 +67,4 @@ The format for the file of points has to be in the format: [latitude,longitude].
 	51.504575,-0.113983
 	51.49763,-0.106602
 	51.510345,-0.106602
+```
