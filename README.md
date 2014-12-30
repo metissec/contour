@@ -3,7 +3,7 @@ Contour
 
 This contour library uses data given in geographic format, latitude (N°) and longitude (E°). A map is generated from openstreetmap [1] then plotted using matplotlib[2] and geotiler[3] libraries. Then a vector field is generated using gaussian kernel density estimation(KDE) from the scipy library [4] . The input for the KDE are the points provided to the library, which were assigned to a numpy array (np.array()). Then this vector field is applied to the matplotlib.contourf() function. Lastly the points are plotted with simple dots using the matplotlib.scatter() function. This can work on any city in the world, or any location.     
 
-**Algorithm:**
+**Algorithm**
 
 Read points into numpy array (np.array()) from a file. 
 Find the rough center of points given using the mid point equation. 
@@ -15,7 +15,7 @@ Plot the output of the KDE to a contour map (matplotlib.confourf).
 Layer the contour map over the map image. With a lower alpha to the contour to make it translucent.
 Output figure to PNG file (or any other format supported by matplotlib).  
 
-**Usage:**
+**Usage**
 
 ```python
 >>>import contour
@@ -32,7 +32,7 @@ contour.Contour(filename, pix_size=2000, inch_size=10,dpi=200,zoom=14)
 ```
 
 
-**File Format:**
+**File Format**
 
 The format for the file of points has to be in the format: [latitude,longitude]. Separated by a  comma with no space, and each coordinate has to be be on new line. The file should be plain text ASCII.
 	
@@ -41,7 +41,7 @@ The format for the file of points has to be in the format: [latitude,longitude].
 	Longitude: Has to be in terms of E°. (Incorrect: 1° W Correct: -1° E)
 
 
-***Sample data Random points in London:***
+**Sample data Random points in London**
 					
 [Latitude° N, Longitude° E]
 ```
