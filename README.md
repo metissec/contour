@@ -17,7 +17,7 @@ Output figure to PNG file (or any other format supported by matplotlib).
 
 **Usage**
 
-```python
+```
 >>>import contour
 >>>contour.Contour(‘File with points’)
 ```
