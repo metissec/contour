@@ -99,4 +99,4 @@ self.pix_size = pix_size
         self.plt.savefig('test.png', bbox_inches='tight')
         self.plt.close()
 
-Contour('pnts_ny.txt')
+Contour('file')
