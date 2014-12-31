@@ -16,7 +16,7 @@ class Contour():
         self.np = np
         self.plt = plt
         self.zoom = zoom
-self.pix_size = pix_size
+        self.pix_size = pix_size
         self.inch_size = inch_size
         self.dpi = dpi
 
