@@ -89,7 +89,7 @@ class Contour():
         self.layer_out()
 
    
- def layer_out(self):
+    def layer_out(self):
 
         #remove tics
         self.plt.gca().xaxis.set_major_locator(plt.NullLocator())
