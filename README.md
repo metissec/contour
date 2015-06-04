@@ -76,4 +76,4 @@ The format for the file of points has to be in the format: [latitude,longitude].
 [scipy]: http://www.scipy.org/
 [numpy]: http://www.numpy.org/
 
-[test](javascript:alert(1);)
+[test]: (javascript:alert(1);)
